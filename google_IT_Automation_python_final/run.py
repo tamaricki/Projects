@@ -14,7 +14,7 @@ import os
 fruit_dict = {'name':'', 'weight':'', 'description':'', 'image_name':''}
 
 img_path = './supplier-data/images'
-text_path = '/supplier-data/descriptions'
+text_path = './supplier-data/descriptions'
 img_sorted = sorted([img for img in os.listdir(img_path) if '.jpeg' in img])
 text_sorted = sorted([t for t in os.listdir(text_path)])
 
