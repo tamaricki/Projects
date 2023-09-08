@@ -5,9 +5,10 @@ import PIL
 from PIL import Image
 import os
 
-#1.write script changeImage.py for images in path ~/supplier-data/images
-#Size: Change image resolution from 3000x2000 to 600x400 pixel
-
+"""
+1.write script changeImage.py for images in path ~/supplier-data/images
+Size: Change image resolution from 3000x2000 to 600x400 pixel
+"""
  
 path = './supplier-data/images/' 
 

@@ -5,11 +5,12 @@ import requests
 import os 
 
 
-#script 
-# which will POST fruit images and their respective descriptions in JSON format (run.py)
-#The script should turn the data into a JSON dictionary by adding all the required fields, 
-# including the image associated with the fruit (image_name, example "image_name": "010.jpeg)
-# and uploading it to http://[linux-instance-external-IP]/fruits using the Python requests library
+""" 
+which will POST fruit images and their respective descriptions in JSON format (run.py)
+The script should turn the data into a JSON dictionary by adding all the required fields, 
+including the image associated with the fruit (image_name, example "image_name": "010.jpeg)
+and uploading it to http://[linux-instance-external-IP]/fruits using the Python requests library
+"""
 
 fruit_dict = {'name':'', 'weight':'', 'description':'', 'image_name':''}
 
