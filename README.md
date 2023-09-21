@@ -1,2 +1,2 @@
 # Projects
-Collection of Data Science projects from various domains
+Collection of data science and python projects from various domains
